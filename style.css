@@ -1,0 +1,57 @@
+.container {
+    background-color: rgb(245, 245, 245);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+ 
+.secContainer {
+    background-color: rgb(245, 245, 245);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+/* @media (max-width:600px) {
+    .container {
+        background-color: red;
+        height: 300px;
+        width: 300px;
+        border-radius: 25px;
+        text-align: center;
+    }    
+
+    .secContainer {
+        background-color: rgb(157, 26, 161);
+        height: 300px;
+        width: 300px;
+        border-radius: 25px;
+        text-align: center;
+    }
+} */
+
+@media screen and (min-width:600px) and (max-width:900px) {
+    .container {
+        background: yellowgreen;
+        height: 300px;
+        width: 300px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .secContainer {
+        background-color: rgb(174, 0, 255);
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .container:hover {
+        background: violet;
+        color: chartreuse;
+    }
+    .secContainer:hover {
+        background-color: crimson;
+        color: darkgoldenrod;
+    }
+
+}
